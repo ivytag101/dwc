@@ -18,11 +18,11 @@ body {
 
   background-size: cover;
 
-  transition: background-color 1s;
-
-  overflow-x: hidden;
+  overflow-x: hidden !important;
 
   align-items: center;
+  
+  justify-content: center;
 
   margin: 0 !important;
 
