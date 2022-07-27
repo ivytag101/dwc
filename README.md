@@ -10,3 +10,13 @@ Some codes were commented out. you can reenable them by uncommenting and followi
 This is easy-bitsy for beginners or pros who just need a headstart and something simple but straightforward.
 Installation is just copying the codes as declared into your server domain for access.
 Build easy.
+⌚ A clock 
+🔘 A call to action 
+🧾 A swappable info box 
+🧁 Sweet alerts on various actions 
+📲 Mobile friendly 
+🎵 A music player 
+🎶 lyrics show when action is performed and music is played.
+🚪 font awesome.
+</> sweet code experience and non bloated. 
+add yours...
