@@ -22,13 +22,13 @@ body {
 
   overflow-x: hidden;
 
+  align-items: center;
+
   margin: 0 !important;
 
-  padding: 0;
+  padding: 0 !important;
 
   min-width: 100%;
-
-  clear: both;
 
 }
 
