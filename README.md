@@ -1,8 +1,7 @@
 # Digital-Wrld-Clock
 Wrld Clock dedicated to Juice Wrld based off Legends Never  Die track, Righteous, on Drug abuse.
-This is a unigue html page with CSS and JS, no libraries.
-For the alert, you can override (alert) without the bracket with swal for sweetalerts, a js library for awesome and customizable alerts. the stylesheet link has already been included.
-Support for bootstrap has also been declared with the relevant script tag links.
+This is a unigue html page with CSS and JS, no libraries, except for the awesome sweetalerts.
+
 This is a basic tutorial which can offer an artiste page, a single product sale, or landing page to showcase anything.
 More features will be added from time to time.
 You can use the code but attribute the author outside of here.
