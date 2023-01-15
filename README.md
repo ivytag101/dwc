@@ -34,4 +34,4 @@ Build easy.
 
 ````https://github.com/MikelKraft/dwc.git````
 
-### Make sure you have the software to each step you intend to use installed in your machine.
+### Make sure you have the software to each step you intend to use installed in your machine. i can't educate you on that.
