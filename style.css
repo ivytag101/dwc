@@ -73,7 +73,7 @@ body {
   -moz-animation: gradient 3s ease infinite;
   animation: gradient 3s ease infinite;
   box-shadow: inset 0 0 0 2em red;
-  cursor: pointer;
+  cursor: auto;
 }
 
 /* aligning items in a vertical direction using flex with the column direction */
