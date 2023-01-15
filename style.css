@@ -119,11 +119,16 @@ h3 {
   justify-content: center;
   margin-top: 15px;
 }
- 
+ @media screen and (max-width: 768px) {
+   .track-art {
+     height: 150px;
+     width: 150px;
+   }
+}
 .track-art {
   margin: 15px 15px 0 15px;
-  height: 150px;
-  width: 150px;
+  height: 300px;
+  width: 300px;
   background-image: URL("https://media.hitparade.ch/cover/big/juice_wrld-righteous_s.jpg");
   background-size: cover;
   background-position: center;
