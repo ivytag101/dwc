@@ -22,7 +22,10 @@ Build easy.
 ##### </> sweet code experience and non bloated. 
 ##### add yours...
 
-### GET STARTED:
- clone the repo to edit in your IDE or download full source code. Type the following in your Command Line or Terminal.
+### GET STARTED WITH ANY OF THE FOLLOWING:
+1. clone the repo to edit in your IDE or download full source code. Type the following in your Command Line or Terminal.
 
 ```gh repo clone MikelKraft/Digital-Wrld-Clock```
+
+2. Using Shell (SSH)
+````git@github.com:MikelKraft/dwc.git````
