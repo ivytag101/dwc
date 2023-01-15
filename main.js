@@ -55,7 +55,7 @@ let fillData = () => {
         return false;
 }
 
-// Assigning variables to all the elements in the HTML file//
+// Assigning variables to all the elements in the HTML file as declared in the css//
 
 let now_playing = document.querySelector(".now-playing");
 let track_art = document.querySelector(".track-art");
