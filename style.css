@@ -6,9 +6,9 @@
 /*defining how the front facing background will be*/
 body {
   background-color: #720000;
-  background-image:url("https://a.wattpad.com/cover/124708175-352-k927639.jpg");
+  background-image: url("https://a.wattpad.com/cover/124708175-352-k927639.jpg");
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
   transition: background-color 1s;
   overflow-x: hidden !important;
   margin: 0 !important;
@@ -37,7 +37,7 @@ body {
   font-size: 16px;
   text-align: center;
   background-color: rgba(255, 0, 0, 0.1);
-  background-shadow: 10px orange;
+  box-shadow: 10px 15px orange;
   padding: 15px;
 }
 
@@ -47,7 +47,7 @@ body {
   font-size: 16px;
   text-align: center;
   background-color: rgba(255, 0, 0, 0.1);
-  background-shadow: 10px orange;
+  box-shadow: 10px 15px orange;
   padding: 15px;
   margin-bottom: 15px;
 }
@@ -56,11 +56,12 @@ body {
 .button {
   color: #ffffff;
   font-size: 20px;
-  background: rgb(213,105,29);
-  background: -moz-linear-gradient(90deg, rgba(213,105,29,1) 0%, rgba(253,29,29,1) 50%, rgba(193,197,86,1) 100%);
-  background: -webkit-linear-gradient(90deg, rgba(213,105,29,1) 0%, rgba(253,29,29,1) 50%, rgba(193,197,86,1) 100%);
-  background: linear-gradient(90deg, rgba(213,105,29,1) 0%, rgba(253,29,29,1) 50%, rgba(193,197,86,1) 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#d5691d",endColorstr="#c1c556",GradientType=1); border: 0px;
+  background: rgb(213, 105, 29);
+  background: -moz-linear-gradient(90deg, rgba(213, 105, 29, 1) 0%, rgba(253, 29, 29, 1) 50%, rgba(193, 197, 86, 1) 100%);
+  background: -webkit-linear-gradient(90deg, rgba(213, 105, 29, 1) 0%, rgba(253, 29, 29, 1) 50%, rgba(193, 197, 86, 1) 100%);
+  background: linear-gradient(90deg, rgba(213, 105, 29, 1) 0%, rgba(253, 29, 29, 1) 50%, rgba(193, 197, 86, 1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#d5691d", endColorstr="#c1c556", GradientType=1);
+  border: 0px;
   border-radius: 25px;
   padding: 20px;
   box-shadow: 0 4px 12px 0 black;
@@ -77,16 +78,17 @@ body {
 /* aligning items in a vertical direction using flex with the column direction */
 @media screen and (max-width: 768px) {
   .player {
-  height: 60vh;
+    height: 60vh;
   }
 }
+
 .player {
   height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-color: rgba(255,0,0,0.2);
+  background-color: rgba(255, 0, 0, 0.2);
   border: 2px solid red;
   border-radius: 10px;
   box-shadow: 0 20px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -98,7 +100,7 @@ body {
   color: white;
   font-family: times-new-roman;
   text-align: center;
-  background-color: rgba(255,0,0,0.2);
+  background-color: rgba(255, 0, 0, 0.2);
   border: 2px solid red;
   border-radius: 10px;
   box-shadow: 0 20px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -108,10 +110,10 @@ h3 {
   color: red;
   font-size: 20px;
   text-decoration: underline;
-  text-transformation: uppercase;
+  text-transform: uppercase;
   text-shadow: 2px 2px 4px white;
 }
- 
+
 .details {
   display: flex;
   align-items: center;
@@ -119,12 +121,14 @@ h3 {
   justify-content: center;
   margin-top: 15px;
 }
- @media screen and (max-width: 768px) {
-   .track-art {
-     height: 150px;
-     width: 150px;
-   }
+
+@media screen and (max-width: 768px) {
+  .track-art {
+    height: 150px;
+    width: 150px;
+  }
 }
+
 .track-art {
   margin: 15px 15px 0 15px;
   height: 250px;
@@ -134,20 +138,20 @@ h3 {
   background-position: center;
   border-radius: 15%;
 }
- 
+
 /* Changing the control look and feel to suitable choices */
 .now-playing {
   font-size: 0.8rem;
   color: white;
 }
- 
+
 .track-name {
   font-size: 1.8rem;
   font-family: 'Righteous', san-serif;
   color: white;
   padding: 10px;
 }
- 
+
 .track-artist {
   font-size: 1rem;
   font-family: 'Courgette', san-serif;
@@ -155,7 +159,7 @@ h3 {
   padding: 10px;
   text-shadow: 3px 3px 5px black;
 }
- 
+
 /* Using flex with the row direction to
    align items in a horizontal direction */
 .buttons {
@@ -163,24 +167,24 @@ h3 {
   flex-direction: row;
   align-items: center;
 }
- 
+
 .playpause-track,
 .prev-track,
 .next-track {
   padding: 20px;
   opacity: 0.8;
- 
+
   /* Smoothly transition the opacity */
   transition: opacity .2s;
 }
- 
+
 /* Change the opacity when mouse is hovered */
 .playpause-track:hover,
 .prev-track:hover,
 .next-track:hover {
   opacity: 1.0;
 }
- 
+
 /* Define the slider width so that it scales properly */
 .slider_container {
   width: 75%;
@@ -189,9 +193,10 @@ h3 {
   justify-content: center;
   align-items: center;
 }
- 
+
 /* Modify the appearance of the slider */
-.seek_slider, .volume_slider {
+.seek_slider,
+.volume_slider {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
@@ -201,7 +206,7 @@ h3 {
   -webkit-transition: .2s;
   transition: opacity .2s;
 }
- 
+
 /* Modify the appearance of the slider thumb */
 .seek_slider::-webkit-slider-thumb,
 .volume_slider::-webkit-slider-thumb {
@@ -214,34 +219,34 @@ h3 {
   cursor: pointer;
   border-radius: 50%;
 }
- 
+
 /* Change the opacity when mouse is hovered */
 .seek_slider:hover,
 .volume_slider:hover {
   opacity: 1.0;
 }
- 
+
 .seek_slider {
   width: 80%;
 }
- 
+
 .volume_slider {
   width: 50%;
 }
- 
+
 .current-time,
 .total-duration {
   padding: 10px;
   color: white;
   font-size: 16px;
 }
- 
+
 i.fa-volume-down,
 i.fa-volume-up {
   padding: 10px;
   color: white;
 }
- 
+
 /* Change the mouse cursor to a pointer
    when hovered over */
 i.fa-play-circle,
@@ -266,8 +271,9 @@ i.fab-creative-commons {
   text-align: center;
   width: 100%;
 }
+
 /* NavBar Section*/
-  
+
 
 .topnav {
   position: sticky;
@@ -282,7 +288,7 @@ i.fab-creative-commons {
 }
 
 .topnav a {
-  justify-content: center;
+  justify-content: center;
   padding: 10px;
   vertical-align: middle;
   color: white;
@@ -292,17 +298,18 @@ i.fab-creative-commons {
   float: right;
   font-family: 'Righteous', sans-serif;
 }
-.topnav a.brand { 
- font-family: 'Righteous', sans-serif;
- float: left;
- color: red;
- text-align: center;
- background-color: black;
- border-radius: 50%;
- font-size: 20px;
- box-shadow: 5px green;
- }
- 
+
+.topnav a.brand {
+  font-family: 'Righteous', sans-serif;
+  float: left;
+  color: red;
+  text-align: center;
+  background-color: black;
+  border-radius: 50%;
+  font-size: 20px;
+  box-shadow: 5px green;
+}
+
 .topnav a:hover {
   background-color: #11DD42;
   color: white;
@@ -320,11 +327,11 @@ i.fab-creative-commons {
 footer {
   clear: both;
   margin-bottom: 0;
-  background: rgb(36,14,50);
-  background: -moz-linear-gradient(90deg, rgba(36,14,50,1) 0%, rgba(253,29,29,0.16506410256410253) 50%, rgba(71,50,21,1) 100%);
-  background: -webkit-linear-gradient(90deg, rgba(36,14,50,1) 0%, rgba(253,29,29,0.16506410256410253) 50%, rgba(71,50,21,1) 100%);
-  background: linear-gradient(90deg, rgba(36,14,50,1) 0%, rgba(253,29,29,0.16506410256410253) 50%, rgba(71,50,21,1) 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#240e32",endColorstr="#473215",GradientType=1);
+  background: rgb(36, 14, 50);
+  background: -moz-linear-gradient(90deg, rgba(36, 14, 50, 1) 0%, rgba(253, 29, 29, 0.16506410256410253) 50%, rgba(71, 50, 21, 1) 100%);
+  background: -webkit-linear-gradient(90deg, rgba(36, 14, 50, 1) 0%, rgba(253, 29, 29, 0.16506410256410253) 50%, rgba(71, 50, 21, 1) 100%);
+  background: linear-gradient(90deg, rgba(36, 14, 50, 1) 0%, rgba(253, 29, 29, 0.16506410256410253) 50%, rgba(71, 50, 21, 1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#240e32", endColorstr="#473215", GradientType=1);
   padding: 0 20px 0 20px;
   font-size: 12px;
   color: teal;
@@ -360,19 +367,18 @@ footer {
 
 /* The sweetalert sections */
 .alertj {
-  background: rgb(213,105,29);
-  background: -moz-linear-gradient(90deg, rgba(213,105,29,1) 0%, rgba(253,29,29,1) 50%, rgba(193,197,86,1) 100%);
-  background: -webkit-linear-gradient(90deg, rgba(213,105,29,1) 0%, rgba(253,29,29,1) 50%, rgba(193,197,86,1) 100%);
-  background: linear-gradient(90deg, rgba(213,105,29,1) 0%, rgba(253,29,29,1) 50%, rgba(193,197,86,1) 100%);
-  color: white;
+  background: rgb(213, 105, 29);
+  background: -moz-linear-gradient(90deg, rgba(213, 105, 29, 1) 0%, rgba(253, 29, 29, 1) 50%, rgba(193, 197, 86, 1) 100%);
+  background: -webkit-linear-gradient(90deg, rgba(213, 105, 29, 1) 0%, rgba(253, 29, 29, 1) 50%, rgba(193, 197, 86, 1) 100%);
+  background: linear-gradient(90deg, rgba(213, 105, 29, 1) 0%, rgba(253, 29, 29, 1) 50%, rgba(193, 197, 86, 1) 100%);
   border: 1px solid 11dd42;
 }
 
 .swal-button {
-  background: rgb(213,105,29);
-  background: -moz-linear-gradient(90deg, rgba(213,105,29,1) 0%, rgba(253,29,29,1) 50%, rgba(193,197,86,1) 100%);
-  background: -webkit-linear-gradient(90deg, rgba(213,105,29,1) 0%, rgba(253,29,29,1) 50%, rgba(193,197,86,1) 100%);
-  background: linear-gradient(90deg, rgba(213,105,29,1) 0%, rgba(253,29,29,1) 50%, rgba(193,197,86,1) 100%);
+  background: rgb(213, 105, 29);
+  background: -moz-linear-gradient(90deg, rgba(213, 105, 29, 1) 0%, rgba(253, 29, 29, 1) 50%, rgba(193, 197, 86, 1) 100%);
+  background: -webkit-linear-gradient(90deg, rgba(213, 105, 29, 1) 0%, rgba(253, 29, 29, 1) 50%, rgba(193, 197, 86, 1) 100%);
+  background: linear-gradient(90deg, rgba(213, 105, 29, 1) 0%, rgba(253, 29, 29, 1) 50%, rgba(193, 197, 86, 1) 100%);
   color: white;
   border: 1px solid 11dd42;
 }
@@ -391,18 +397,21 @@ footer {
   margin: 22px;
   text-align: center;
   color: white;
+}
 
 .swal-overlay {
   background-color: rgba(255, 0, 0, 0.60);
 }
 
- @-webkit-keyframes gradient {
+@-webkit-keyframes gradient {
   0% {
     background-position: 0% 50%;
   }
+
   50% {
     background-position: 100% 50%;
   }
+
   100% {
     background-position: 0% 50%;
   }
@@ -414,44 +423,51 @@ footer {
   0% {
     background-position: 0% 50%;
   }
+
   50% {
     background-position: 100% 50%;
   }
+
   100% {
     background-position: 0% 50%;
   }
-}  
+}
 
 @-webkit-keyframes gradient {
   0% {
     background-position: 0% 50%;
   }
+
   50% {
     background-position: 100% 70%;
   }
+
   100% {
     background-position: 0% 80%;
   }
-}  
+}
 
-@-keyframes gradient {
+@keyframes gradient {
   0% {
     background-position: 0% 50%;
   }
+
   50% {
     background-position: 90% 50%;
   }
+
   100% {
     background-position: 0% 40%;
   }
-}  
-// This works with the last commented out JS code. I used a simpler approach with css position 
-//.sticky {
-//  position: fixed;
- // top: 0;
- // width: 100%;
-//}
+}
 
-//.sticky + body {
-  //padding-top: 60px;
-//}
+/* This works with the last commented out JS code. I used a simpler approach with css position 
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + body {
+  padding-top: 60px;
+}*/
