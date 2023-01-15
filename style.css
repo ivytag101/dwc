@@ -71,11 +71,12 @@ body {
   -webkit-animation: gradient 3s ease infinite;
   -moz-animation: gradient 3s ease infinite;
   animation: gradient 3s ease infinite;
+  box-shadow: inset 0 0 0 2em red;
 }
 
 /* aligning items in a vertical direction using flex with the column direction */
 .player {
-  height: 60vh;
+  height: 80vh;
   display: flex;
   flex-direction: column;
   align-items: center;
