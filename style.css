@@ -34,7 +34,7 @@ body {
 #container {
   font-family: 'Courgette', sans-serif;
   color: #ffffff;
-  font-size: 18px;
+  font-size: 16px;
   text-align: center;
   background-color: rgba(255, 0, 0, 0.1);
   background-shadow: 10px orange;
@@ -44,7 +44,7 @@ body {
 #container2 {
   font-family: 'Courgette', sans-serif;
   color: #ffffff;
-  font-size: 17px;
+  font-size: 16px;
   text-align: center;
   background-color: rgba(255, 0, 0, 0.1);
   background-shadow: 10px orange;
@@ -330,6 +330,8 @@ footer {
   font-size: 14px;
   background: -webkit-linear-gradient(white, red, yellow);
   -webkit-background-clip: text;
+  -moz-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
   text-align: center;
 }
@@ -389,7 +391,7 @@ footer {
   background-color: rgba(255, 0, 0, 0.60);
 }
 
- @-webkit-keyframes linear-gradient {
+ @-webkit-keyframes gradient {
   0% {
     background-position: 0% 50%;
   }
@@ -403,7 +405,7 @@ footer {
 
 /* animate the call to action button with keyframes */
 
-@-moz-keyframes linear-gradient {
+@-moz-keyframes gradient {
   0% {
     background-position: 0% 50%;
   }
@@ -415,7 +417,7 @@ footer {
   }
 }  
 
-@-webkit-keyframes linear-gradient {
+@-webkit-keyframes gradient {
   0% {
     background-position: 0% 50%;
   }
@@ -427,7 +429,7 @@ footer {
   }
 }  
 
-@-keyframes linear-gradient {
+@-keyframes gradient {
   0% {
     background-position: 0% 50%;
   }
