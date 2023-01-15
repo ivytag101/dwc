@@ -29,7 +29,7 @@ let fillData = () => {
         let mk = document.getElementById('container');
         mk.innerHTML = 'SAY NO TO DRUGS: You might not be a fan of Juice Wrld, the young American rapper who died of Drug Overdose at the age of 21, yet you need to listen to one of his tracks "RIGHTEOUS", if not all to learn the dangerous impact of hard drugs. He deliberately predicted his own death. He gave his words religiously. The music is off Legends Never Die PostHumous album.' + '<br />' + '\n';
           
-        mk.innerHTML += '<br />' + '<span style="background-color: red; padding: 0 10px 0 10px; font-size: 16px; border-radius: 3px; font-family: times-new-roman; font-decoration: bold;">ENJOY THE SONG BELOW</span>';
+        mk.innerHTML += '<br />' + '<span style="background-color: red; padding: 0 10px 0 10px; font-size: 16px; border-radius: 3px; font-family: times-new-roman; font-decoration: bold;">ENJOY THE MUSIC BELOW</span>';
    // Display an Alert before the message
         document.getElementById('button');
         swal({
