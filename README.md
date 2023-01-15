@@ -29,3 +29,9 @@ Build easy.
 
 2. Using Shell (SSH)
 ````git@github.com:MikelKraft/dwc.git````
+
+3. You can checkout with SVN.
+
+````https://github.com/MikelKraft/dwc.git````
+
+### Make sure you have the software to each step you intend to use installed in your machine.
