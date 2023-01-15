@@ -73,6 +73,7 @@ body {
   -moz-animation: gradient 3s ease infinite;
   animation: gradient 3s ease infinite;
   box-shadow: inset 0 0 0 2em red;
+  pointer: cursor;
 }
 
 /* aligning items in a vertical direction using flex with the column direction */
@@ -161,7 +162,7 @@ h3 {
 }
 
 /* Using flex with the row direction to
-   align items in a horizontal direction */
+   align player button items in a horizontal direction */
 .buttons {
   display: flex;
   flex-direction: row;
