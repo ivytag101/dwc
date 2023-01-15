@@ -37,7 +37,7 @@ body {
   font-size: 16px;
   text-align: center;
   background-color: rgba(255, 0, 0, 0.1);
-  box-shadow: 5px 5px 15px orange;
+  box-shadow: 5px 5px 18px red;
   padding: 15px;
 }
 
@@ -47,7 +47,7 @@ body {
   font-size: 16px;
   text-align: center;
   background-color: rgba(255, 0, 0, 0.1);
-  box-shadow: 5px 5px 15px orange;
+  box-shadow: 5px 5px 18px red;
   padding: 15px;
   margin-bottom: 15px;
 }
