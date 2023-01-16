@@ -79,7 +79,7 @@ body {
 /* aligning items in a vertical direction using flex with the column direction for the music player*/
 @media screen and (max-width: 567px) {
   .player {
-    height: 600px;
+    height: 60px;
   }
 }
 
