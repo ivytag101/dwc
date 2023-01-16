@@ -76,10 +76,10 @@ body {
   cursor: pointer;
 }
 
-/* aligning items in a vertical direction using flex with the column direction */
+/* aligning items in a vertical direction using flex with the column direction for the music player*/
 @media screen and (max-width: 768px) {
   .player {
-    height: 60vh;
+    height: 80vh;
   }
 }
 
