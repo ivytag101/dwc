@@ -1,4 +1,3 @@
-https://mikelkraft.github.io/dwc
 
 # Digital-Wrld-Clock
 > Wrld Clock dedicated to ```Juice Wrld``` based off the track, Righteous, from the```Legends Never  Die``` which spoke volume on substance abuse.
