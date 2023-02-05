@@ -34,7 +34,7 @@ body {
 #container {
   font-family: 'Courgette', sans-serif;
   color: #ffffff;
-  font-size: 16px;
+  font-size: 14px;
   text-align: justify;
   background-color: rgba(255, 0, 0, 0.1);
   box-shadow: 5px 5px 18px red;
@@ -44,8 +44,8 @@ body {
 #container2 {
   font-family: 'Courgette', sans-serif;
   color: #ffffff;
-  font-size: 16px;
-  text-align: justify;
+  font-size: 14px;
+  text-align: center;
   background-color: rgba(255, 0, 0, 0.1);
   box-shadow: 5px 5px 18px red;
   padding: 15px;
@@ -97,7 +97,7 @@ body {
 }
 
 #lyrics {
-  font-size: 17px;
+  font-size: 14px;
   padding: 10px 4px 10px 4px;
   color: white;
   font-family: times-new-roman;
