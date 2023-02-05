@@ -35,7 +35,7 @@ body {
   font-family: 'Courgette', sans-serif;
   color: #ffffff;
   font-size: 16px;
-  text-align: center;
+  text-align: justify;
   background-color: rgba(255, 0, 0, 0.1);
   box-shadow: 5px 5px 18px red;
   padding: 15px;
@@ -45,7 +45,7 @@ body {
   font-family: 'Courgette', sans-serif;
   color: #ffffff;
   font-size: 16px;
-  text-align: center;
+  text-align: justify;
   background-color: rgba(255, 0, 0, 0.1);
   box-shadow: 5px 5px 18px red;
   padding: 15px;
@@ -101,7 +101,7 @@ body {
   padding: 10px 4px 10px 4px;
   color: white;
   font-family: times-new-roman;
-  text-align: center;
+  text-align: justify;
   background-color: rgba(255, 0, 0, 0.2);
   border: 2px solid red;
   border-radius: 10px;
