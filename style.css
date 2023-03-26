@@ -98,7 +98,7 @@ body {
 
 #lyrics {
   font-size: 14px;
-  padding: 10px 4px 10px 4px;
+  padding: 10px;
   color: white;
   font-family: times-new-roman;
   text-align: justify;
@@ -114,6 +114,7 @@ h3 {
   text-decoration: underline;
   text-transform: uppercase;
   text-shadow: 2px 2px 4px white;
+  text-align: center;
 }
 
 .details {
